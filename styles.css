@@ -1,0 +1,195 @@
+* {
+    /* font-size: open sans; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.hero-section {
+    width: 100%;
+    height: 105vh;
+    background-image: url("https://www.eddiebullen.com/wp-content/uploads/2024/10/IMAGE-01-1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-col h1 {
+    font-size: 64px;
+    font-weight: 500;
+    margin-top: 200px;
+
+}
+
+.hero-col button {
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: #BEA586;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 45px;
+    width: 170px;
+    padding: 5px;
+}
+
+.hero-col button:hover {
+    background-color: rgba(190, 165, 134, 1);
+}
+
+@media screen and (max-width: 1024px) {
+    .hero-section {
+        height: 40vh;
+        background-size: 100% 100%;
+        overflow: hidden;
+    }
+
+    .hero-col h1 {
+        font-size: 50px;
+        font-weight: 500;
+        margin-top: 150px;
+        width: 90%;
+        margin-left: 25px;
+
+    }
+
+    .hero-col button {
+        margin-top: 15px;
+        font-size: 22px;
+        font-weight: 500;
+        background-color: #BEA586;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        height: 45px;
+        width: 170px;
+        padding: 5px;
+    }
+
+    .hero-col button:hover {
+        background-color: rgba(190, 165, 134, 1);
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .hero-section {
+        height: 50vh;
+        background-size: 100% 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero-section {
+        height: 30vh;
+        background-size: 100% 100%;
+        /* overflow-x: hidden; */
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        color: white;
+        text-align: center;
+
+    }
+
+    .hero-col h1 {
+        font-size: 24px !important;
+        font-weight: 400;
+        line-height: 30px !important;
+        margin-top: 100px !important;
+        width: 80%;
+        margin-left: 30px;
+
+
+    }
+
+    .hero-col button {
+        margin-top: 10px !important;
+        font-size: 15px !important;
+        font-weight: 500;
+        background-color: #BEA586;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        height: 30px !important;
+        width: 105px !important;
+        padding: 5px;
+    }
+
+    .hero-col button:hover {
+        background-color: rgba(190, 165, 134, 1);
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .hero-col h1 {
+        font-size: 18px!important;
+        font-weight: 400;
+        line-height: 20px !important;
+        margin-top: 70px !important;
+        width: 80%;
+        margin-left: 30px;
+
+
+    }
+
+    .hero-col button {
+        margin-top: -5px !important;
+        font-size: 12px !important;
+        font-weight: 400;
+        background-color: #BEA586;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        height: 25px !important;
+        width: 90px !important;
+        padding: 5px;
+    }
+
+    .hero-col button:hover {
+        background-color: rgba(190, 165, 134, 1);
+    }
+
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+    .hero-section {
+        height: 80vh;
+        background-size: 100% 100%;
+    }
+
+    .hero-col h1 {
+        font-size: 40px;
+        font-weight: 500;
+        margin-top: 120px;
+
+    }
+
+    .hero-col button {
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        background-color: #BEA586;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        height: 40px;
+        width: 150px;
+        padding: 5px;
+    }
+
+    .hero-col button:hover {
+        background-color: rgba(190, 165, 134, 1);
+    }
+}
